@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <div class="open-btn">
+            <img src="img/arrow2.svg"></div>
+        </div>
+        <div class="setting-container active-setting-moda">
+            <div class="setting-header">
+                <p>Create your background</p>
+                <img src="img/cross.svg" id="cross-btn">
+            </div>
+            <div class="input-color">
+                <div class="input-container">
+                    <input type="text" placeholder="Enter color..." id="input">
+                    <div id="check-mark"><img src="img/check-mark.svg"></div>
+                </div>
+                <div class="color-array">
+                </div>
+            </div>
+            <div class="lock-checkbox-btn">
+                <label><input type="checkbox" id="checkbox">Lock the first color</label>
+            </div>
+            <div class="direction-btns">
+                <div><img src="img/arrow.svg" style="transform: rotate(-140deg);"></div>
+                <div><img src="img/arrow.svg" style="transform: rotate(270deg);"></div>
+                <div><img src="img/arrow.svg" style="transform: rotate(-40deg);"></div>
+                <div><img src="img/arrow.svg" style="transform: rotate(180deg);"></div>
+                <div><img src="img/radial.svg"></div>
+                <div class="active-direction"><img src="img/arrow.svg"></div>
+                <div><img src="img/arrow.svg" style="transform: rotate(140deg);"></div>
+                <div><img src="img/arrow.svg" style="transform: rotate(90deg);"></div>
+                <div><img src="img/arrow.svg" style="transform: rotate(40deg);"></div>
+            </div>
+        </div>
+        <div class="color-container">
+            <button id="change-btn">Change color</button>
+            <div class="color-info">
+                <div class="color-code first-color">
+                    <div class="circle fc"></div>
+                    <span id="fc">#45F0DC</span>
+                </div>
+                <div class="color-code second-color">
+                    <div class="circle sc"></div>
+                    <span id="sc">#D538EF</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
